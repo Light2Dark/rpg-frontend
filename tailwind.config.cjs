@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      "formal": "Merriweather",
+      "informal": "Ubuntu"
+    }
   },
   plugins: [],
 }
