@@ -11,7 +11,7 @@ const Confessions = ({content}: ConfessionProps) => {
                 content.map((confession, index)=> (
                     <div key={index}>
                         <p>{confession.body}</p>
-                        <p className="text-xs text-gray-600">{confession.author.name}</p>
+                        <p className="text-xs text-gray-600">{confession.createdAt}</p>
                     </div>
                 ))
             }
